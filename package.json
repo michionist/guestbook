@@ -2,9 +2,10 @@
   "name": "guest-book-app",
   "version": "1.0.0",
   "description": "This a guestbook app to keep track of student coming for our christmas party and SMS them Email to SMS reminders",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,13 @@
   },
   "homepage": "https://github.com/michionist/guestbook#readme",
   "dependencies": {
-    "eslint": "^6.3.0"
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "eslint": "^6.3.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2"
   }
 }
