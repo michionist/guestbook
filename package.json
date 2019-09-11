@@ -2,7 +2,7 @@
   "name": "guest-book-app",
   "version": "1.0.0",
   "description": "This a guestbook app to keep track of student coming for our christmas party and SMS them Email to SMS reminders",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "test",
     "start": "nodemon app.js"
