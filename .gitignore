@@ -12,3 +12,6 @@ simple-server.js
 
 # dotenv environment variables file
 .env
+
+# The Sql table
+table.txt
