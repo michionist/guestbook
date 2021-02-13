@@ -1,0 +1,14 @@
+/node_modules
+simple-server.js
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# ESLINT FILE
+.eslintrc
+
+# dotenv environment variables file
+.env
