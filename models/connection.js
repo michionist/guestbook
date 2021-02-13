@@ -32,6 +32,8 @@ connection.connect(err => {
 //
 
 
+
+
 connection.end(err => {
 	if (err)
 		console.log(`An error occured while closing Mysql ${err}`);
